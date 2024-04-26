@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6dffc52-59d6-435a-ba86-eb2a0d445d74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/new_calculator.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/calculator/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calculator/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/calculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/calculator.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/calculator" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/m-abbastabar/Uni/SW Eng./Lab/4/SE-LAB-EXP-4/pom.xml",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RunManager" selected="JUnit.RunnerTest">
     <configuration name="Feature: calculator" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
@@ -63,6 +74,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: new_calculator" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/new_calculator.feature" />
+      <option name="GLUE" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="SE-LAB-EXP-4" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: new_calculator" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Multiply two integers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/calculator.feature" />
@@ -72,6 +102,26 @@
       <option name="NAME_FILTER" value="^Multiply two integers$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Multiply two integers$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Multiply two integers" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Raise one integer to the power of another" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/calculator.feature" />
+      <option name="GLUE" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="SE-LAB-EXP-4" />
+      <option name="NAME_FILTER" value="^Raise one integer to the power of another$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Raise one integer to the power of another$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Raise one integer to the power of another" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -104,6 +154,7 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -114,6 +165,9 @@
             <option name="profilesMap">
               <map />
             </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
           </MavenRunnerParameters>
@@ -122,16 +176,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: new_calculator" />
+      <item itemvalue="Cucumber Java.Scenario: Raise one integer to the power of another" />
       <item itemvalue="Cucumber Java.Feature: calculator" />
       <item itemvalue="Cucumber Java.Scenario: Multiply two integers" />
-      <item itemvalue="Maven.SE-LAB-EXP-4" />
       <item itemvalue="JUnit.RunnerTest" />
+      <item itemvalue="Maven.SE-LAB-EXP-4" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerTest" />
         <item itemvalue="Cucumber Java.Feature: calculator" />
+        <item itemvalue="Cucumber Java.Feature: new_calculator" />
         <item itemvalue="Cucumber Java.Scenario: Multiply two integers" />
+        <item itemvalue="Cucumber Java.Scenario: Raise one integer to the power of another" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +237,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add Cucumber feature file and step definitions for calculator operations" />

@@ -11,6 +11,7 @@ public class MyStepdefs {
     private int firstNumber;
     private int secondNumber;
     private int result;
+    private char opt;
 
     @Before
     public void before() {
@@ -51,4 +52,43 @@ public class MyStepdefs {
     public void theResultShouldBe(int expectedResult) {
         assert this.result == expectedResult;
     }
+
+    @Given("^Two input values, (-?\\d+) and (-?\\d+)$")
+    public void twoInputValuesFirstAndSecond(int first, int second) {
+        this.firstNumber = first;
+        this.secondNumber = second;
+    }
+
+    @When("^I add the two values$")
+    public void iAddTheTwoValues() {
+        this.result = calculator.add(this.firstNumber, this.secondNumber);
+    }
+
+    @Then("^I expect the result (-?\\d+)$")
+    public void iExpectTheResultResult(int expectedResult) {
+        assert this.result == expectedResult;
+    }
+
+    @Given("^Two input values, (-?\\d+) and (-?\\d+) and with the operator ([*^/])$")
+    public void twoInputValuesFirstAndSecondWithOperation(int first, int second, char opt) {
+        this.firstNumber = first;
+        this.secondNumber = second;
+        this.opt = opt;
+    }
+
+    @When("^I calculate the expression$")
+    public void calculate() {
+        switch (this.opt) {
+            case '*':
+                this.result = calculator.multiply(this.firstNumber, this.secondNumber);
+                break;
+            case '/':
+                this.result = calculator.divide(this.firstNumber, this.secondNumber);
+                break;
+            case '^':
+                this.result = calculator.exponentiate(this.firstNumber, this.secondNumber);
+                break;
+        }
+    }
+
 }

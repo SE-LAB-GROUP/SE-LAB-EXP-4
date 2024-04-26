@@ -1,0 +1,35 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"d6dffc52-59d6-435a-ba86-eb2a0d445d74\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/App.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/org/example/AppTest.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2fdEqQ2uwY3iXSQZeH3EDRmRRkG\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"main\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"d6dffc52-59d6-435a-ba86-eb2a0d445d74\" name=\"Changes\" comment=\"\" />\n      <created>1714122747136</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1714122747136</updated>\n      <workItem from=\"1714122748208\" duration=\"1616000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 941c192d5b748f28e7981dffb5db3cd594e68641)
++++ b/.idea/workspace.xml	(date 1714150651616)
+@@ -5,14 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="d6dffc52-59d6-435a-ba86-eb2a0d445d74" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -50,7 +43,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1714122747136</updated>
+-      <workItem from="1714122748208" duration="1616000" />
++      <workItem from="1714122748208" duration="3142000" />
+     </task>
+     <servers />
+   </component>
